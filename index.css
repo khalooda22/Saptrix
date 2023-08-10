@@ -1,0 +1,465 @@
+*{
+    margin:0px;
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+    color:whitesmoke
+}
+nav{
+    /* border:1px solid black; */
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+width: 100%;
+background-color: #4cc9f0;
+}
+ul{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+li{
+    list-style: none;
+    
+    /* margin: 10px; */
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+.active{
+    color: black;
+}
+#hero{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background:linear-gradient(to bottom right,black,#231942af), url('images/header.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    
+}
+#hero h1{
+    text-shadow: 0px 0px 5px black;
+    font-size: 50px;
+}
+#hero i{
+    background-color: whitesmoke ;
+    padding:10px;
+    border-radius: 100%;
+    font-size: 18px;
+    color: #4cc9f0;
+    margin:5px;
+}
+/* #hero i:hover{
+    
+    padding:10px;
+    border-radius: 100%;
+    font-size: 18px;
+ 
+    margin:5px;
+} */
+#hero button{
+    padding:10px 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 20px;
+    
+
+}
+#hero button:hover{
+    background-color: white;
+    color:#4cc9f0;
+}
+#About-us{
+    padding:50px;
+    text-align: center;
+}
+#About-us h1{
+    color:#4cc9f0;
+    margin:50px;
+}
+#numbers{
+    width: 100%;
+    height:300px;
+    background:linear-gradient(to bottom right,black,#231942af), url('images/counter.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    
+}
+#numbers:hover h2{
+color: #0096c7;
+}
+#numbers:hover h3{
+    color: #0096c7;
+    }
+    #numbers i{
+        background-color: #4cc9f0 ;
+        padding:20px;
+        border-radius: 100%;
+        font-size: 25px;
+        color: whitesmoke;
+        margin:5px;
+    }
+#numbers:hover i{
+        background-color: white;
+        color:#4cc9f0;
+    }
+#numbers div{
+    /* border: 1px solid white; */
+    text-align: center;
+    color: white;
+}
+#choosing-us {
+    padding:70px 20px;
+    box-sizing: border-box;
+}
+#choosing-us h1{
+    margin: 50px;
+    color:#4cc9f0;
+    text-align:center;
+}
+#choosing-us section{
+    width: 600px;
+}
+.parent{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+}
+.parent-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bar{
+    width: 90%;
+    height: 10px;
+    background-color: #f7f7f7;
+}
+#portofolio{
+    padding: 100px;
+ text-align: center;
+ background-color: #f7f7f7;
+ 
+}
+#portofolio h1{
+ color: #4cc9f0;
+ margin:20px
+}
+button{
+    background-color: transparent;
+}
+#portofolio button{
+
+    border: 1px solid rgba(112, 128, 144, 0.39);
+    padding:5px 15px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.active-btn{
+    background-color: #4cc9f0;
+}
+.container{
+    margin:20px;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /* text-align: center; */
+}
+.container img{
+
+    width: 200px;
+}
+#services{
+    width: 100%;
+    /* height: 600px; */
+    background-image: linear-gradient(to bottom right,black,#231942af) ,url('images/service.jpg') ;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px;
+}
+#services h1{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
+#services p{
+    color: white;
+    margin: 10px;
+}
+.services-parent i{
+    font-size:20px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    color: #4cc9f0;
+}
+.services-parent div{
+    border: 2px solid #4cc9f0;
+    width: 350px;
+    padding:5px
+}
+.services-parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+#our-team{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 50px 0px;
+}
+#our-team h1{
+    color: #4cc9f0;
+    font-size: 40px;
+    margin: 10px;
+}
+#our-team p{
+    /* color: white; */
+    margin: 10px;
+}
+.team-parent{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.team-parent img{
+    width: 250px;
+    
+}
+.team-parent div h2{
+    color: #4cc9f0;
+}
+.team-parent div {
+   border: 3px solid #f7f7f7;
+}
+#creative{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background:linear-gradient(to bottom right,black,#231942af), url('images/message.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    
+}
+#creative h1{
+    text-shadow: 0px 0px 5px black;
+    font-size: 50px;
+    color: #4cc9f0;
+}
+#creative button{
+    padding:10px 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 20px;
+    
+
+}
+.title{
+    text-align: center;
+    color: #4cc9f0;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+#price-plan{
+    padding: 50px 0px;
+}
+#price-plan p{
+text-align: center;
+}
+.cards-parent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    border:3px solid #f7f7f7;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+.card-title{
+    background-color: #00b4d8;
+    padding: 30px;
+}
+.blured{
+    background:#0096c7;
+    color: white;
+    padding: 10px;
+    
+    
+}
+.features p{
+    padding: 20px;
+    border-bottom: 3px solid #f7f7f7;
+}
+.card button{
+    background-color: #4cc9f0;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin:10px;
+}
+#client{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background: url('images/clients.jpg');
+    background-size: cover;
+    padding: 10px 0px;
+}
+#client{
+    text-align: center;
+}
+#client h1{
+    color:white;
+}
+#client i{
+    font-size:30px;
+    margin-top: 10px;
+    background-color: #4cc9f0;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+}
+#client p{
+    color:white;
+    width: 500px;
+    margin: 20px auto;
+}
+#contact{
+    text-align: center;
+}
+form{
+    width: 500px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    margin:10px auto;
+    gap: 20px;
+
+}
+input{
+    height: 30px;
+    border: 3px solid #f7f7f7;
+    text-align: lerft;
+}
+input:hover{
+    border: 3px solid #4cc9f0;
+}
+textarea{
+    text-align: left;
+    border: 3px solid #f7f7f7;
+    color: grey;
+}
+textarea:hover{
+    border:3px solid #4cc9f0
+}
+form button{
+    background-color: grey;
+    padding: 5px;
+    border: none;
+    color:white;
+
+}
+form button:hover{
+    background-color: #4cc9f0;
+}
+.parent-contact{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+
+}
+.parent-contact div{
+    border: 2px solid #4cc9f0;
+    padding:30px 80px;
+    width:200px;
+}
+.parent-contact h1{
+    color:#4cc9f0;
+}
+.parent-contact i{
+    background-color: #00b4d8;
+    padding: 20px;
+    border-radius: 100%;
+    color:white
+}
+iframe{
+    display: block;
+    width: 50%;
+    height: 300px;
+    margin: 20px auto;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #4cc9f0;
+    padding: 10px 0px;
+}
+.icons-parent{
+    display: flex;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding:10px
+
+}
+.icons-parent i{
+    font-size:20px;
+    color: #4cc9f0;
+    padding:10px;
+    background-color: white;
+    border-radius: 100%;
+}
+h5{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: serif;
+    font: lighter;
+}
